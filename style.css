@@ -1,4 +1,7 @@
 /* CSS */
+.bold{
+    font-weight: bold;
+}
 .bg {
     background-color: violet;
 }
