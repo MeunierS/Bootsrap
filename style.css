@@ -1,0 +1,19 @@
+/* CSS */
+.bg {
+    background-color: violet;
+}
+.container-fluid {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+.nobord {
+    border-style: none;
+}
+.contenu {
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    border-radius: 5px;
+}

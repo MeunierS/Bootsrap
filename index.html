@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Excercice bootstrap">
+    <meta name="keywords" content="HTML, CSS, JS, Bootstrap CDN">
+    <meta name="author" content="Sebastien Meunier">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <h2>I - blocs positioning</h2>
+
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-12">
+                12 colonnes
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 offset-1 contenu">
+                Coucou
+            </div>
+            <div class="col-3 offset-2 contenu">
+                ça
+            </div>
+            <div class="col-2 offset-2 contenu">
+                va ?
+            </div>
+        </div>
+    </div>
+
+    <h2>II - imbricated elements</h2>
+
+    <div class="container-fluid nobord">
+        <div class="row">
+
+            <div class="col-sm-4 contenu bg">
+                Nouvel
+            </div>
+
+            <div class="col-sm-8 contenu bg">
+                <strong>Excercice</strong>
+
+                <div class="row">
+                    <div class="col-md-3 contenu">
+                        Ces
+                    </div>
+
+                    <div class="col-md-6 contenu">
+                        Blocs sont tous
+                    </div>
+
+                    <div class="col-md-3 contenu">
+                        dans
+                    </div>      
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 contenu">
+                        la même
+                    </div>
+
+                    <div class="col-md-4 contenu">
+                        div où est
+                    </div>
+
+                    <div class="col-md-4 contenu">
+                        inscrit "<strong>Excercice</strong>"
+                    </div>          
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 contenu">
+                    Comment
+                    </div>
+
+                    <div class="col-md-2 contenu">
+                        est
+                    </div>
+
+                    <div class="col-md-5 contenu">
+                        ce possible ?
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>III - change elements order</h2>
+
+    <div class="container-fluid bg">
+        <div class="row">
+            <div class="col-12">
+                12 colonnes
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <!--Vide-->
+            </div>
+            <div class="col-2 contenu">
+                Bloc 1 de 2
+            </div>
+            <div class="col-2">
+                <!--Vide-->
+            </div>
+            <div class="col-2 contenu col-push-4">
+                Bloc 2 de 2
+            </div>
+            <div class="col-2">
+                <!--Vide-->
+            </div>
+            <div class="col-2 contenu col-pull-4">
+                Bloc 3 de 2
+            </div>
+            <div class="col-1">
+                <!--Vide-->
+            </div>
+        </div>
+    </div>
+
+    <h2>IV - practice makes good</h2>
+    <h2>V - responsive layout</h2>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
