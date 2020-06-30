@@ -93,6 +93,7 @@
             </section>
         </div>
     </div>
+
     <h2>III - change elements order</h2>
 
     <div class="container-fluid bg">
@@ -102,34 +103,91 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-1">
-                <!--Vide-->
-            </div>
-            <div class="col-2 contenu">
+            <div class="col-2 contenu order-1 offset-1">
                 Bloc 1 de 2
             </div>
-            <div class="col-2">
-                <!--Vide-->
-            </div>
-            <div class="col-2 contenu col-push-4">
+            <div class="col-2 contenu col-push-4 order-3 offset-2">
                 Bloc 2 de 2
             </div>
-            <div class="col-2">
-                <!--Vide-->
-            </div>
-            <div class="col-2 contenu col-pull-4">
+            <div class="col-2 contenu col-pull-4 order-2 offset-2">
                 Bloc 3 de 2
             </div>
-            <div class="col-1">
-                <!--Vide-->
+        </div>
+    </div> 
+    <h2>IV - practice makes good</h2>
+    
+    <div class="container-fluid bg nobord">
+        <div class="row">
+            <div class="col-6 contenu">
+                6 colonnes
+                <div class="row">
+                    <div class="col-4 contenu">
+                        4 Colonnes
+                    </div>
+                    <div class="col-4 offset-4 contenu">
+                        4 Colonnes
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 contenu">
+                6 colonnes
+                <div class="row">
+                    <div class="col-4 contenu">
+                        4 Colonnes
+                    </div>
+                    <div class="col-8 contenu">
+                        8 Colonnes
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <h2>IV - practice makes good</h2>
     <h2>V - responsive layout</h2>
+
+    <div class="container-fluid txtwhit">
+        <div class="row">
+            <div class="col-3 col-md-4 bg-dark contenu">
+                Logo
+            </div>
+            <div class="col-9 col-md-8 bg-dark contenu">
+                Titre
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 bg-dark contenu">
+                Hero
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 bg-dark contenu">
+                Zone 1
+            </div>
+            <div class="col-12 col-md-4 bg-dark contenu">
+                Zone 2
+            </div>
+            <div class="col-12 col-md-4 bg-dark contenu">
+                Zone 3
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-8 bg-dark contenu">
+                Zone 4
+            </div>
+            <div class="col-6 col-md-4 bg-dark contenu">
+                Zone 5
+            </div>
+        </div>
+        <div class="row">
+            <footer class="col-12 bg-dark contenu">
+                    Footer
+            </footer>
+        </div>
+    </div>
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
