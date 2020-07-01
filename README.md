@@ -1,4 +1,4 @@
-# Bootsrap Prise en main
+# Bootstrap Prise en main
 
 Vous trouverez ici un exercice de mise en place du bootstrap en CDN.
 
